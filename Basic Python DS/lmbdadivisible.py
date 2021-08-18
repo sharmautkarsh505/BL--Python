@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-11 2:02:00
+Date: 2021-08-11 14:02:00
 Last Modified by:---
 Last Modified time:----
 Title : Write a Python program to get numbers divisible by fifteen from a list using an anonymous function.
