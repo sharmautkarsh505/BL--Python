@@ -1,12 +1,11 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-07 20:00:00
+Date: 2021-08-11 13:26:00
 Last Modified by:---
 Last Modified time:----
-Title : Find the factors of the given number
+Title : Write a python program to access environment variables.
 """
 
 import os 
 #mapping object representing the string environment,key value pairs
 print(os.environ)
-#print(os.environ['HOME'])
