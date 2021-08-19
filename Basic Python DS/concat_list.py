@@ -14,8 +14,8 @@ def concat_list(input_list):
 
 
 def take_input():
-    input_string=[]
-    input_string=[ele for ele in input('Enter list elements: ').split(',')]
-    return input_string
+    input_list=[]
+    input_list=[ele for ele in input('Enter list elements: ').split(',')]
+    return input_list
 
 print(concat_list(take_input()))
