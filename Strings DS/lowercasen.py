@@ -8,6 +8,6 @@ Title :Write a Python program to lowercase first n characters in a string.
 
 player_name='KYRIE IRVING'
 
-print(player_name[:3:].lower()+player_name[3::])
+print(player_name[0:3:].lower()+player_name[3::])
 
 
