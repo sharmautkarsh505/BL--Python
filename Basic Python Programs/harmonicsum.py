@@ -11,11 +11,12 @@ try:
    if number<0:
       raise Exception
 
+except Exception:
+   print('Invalid input.Please enter a positive integer')
+
+else:
    hsum=0.0
    for x in range(1,number+1):
       hsum=hsum+(1/x)
 
    print(hsum)
-
-except Exception:
-   print('Invalid input.Please enter a positive integer')
