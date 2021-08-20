@@ -6,6 +6,8 @@ Last Modified time:2021-08-20 15:59:00
 Title : A library for reading in 2D arrays of integers, doubles, or booleans from
 standard input and printing them out to standard output.
 """
+class NegativeInputError(Exception):
+    pass
 def make_array(row,column):
     array = [["_" for _ in range(column)] for _ in range(row)]
     for r_index in range(row):
@@ -15,7 +17,13 @@ def make_array(row,column):
         print(r_index)
 
 try:  
-    make_array(int(input('Rows: ')),int(input('Columns: ')))
+    x=int(input('Rows: '))
+    y=int(input('Columns: '))
+    make_array(x,y)
+    if x<1 and y<1:
+        raise NegativeInputError
+except NegativeInputError:
+    print('Please enter positive integer values for the rows and columns')
 except ValueError:
     print('Please enter integer values for the rows and columns')
 except Exception:
