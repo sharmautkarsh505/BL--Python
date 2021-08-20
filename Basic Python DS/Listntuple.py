@@ -2,14 +2,17 @@
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-08-11 14:02:00
 Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Last Modified time:2021-08-18 16:03:00
-Title : Write a Python program to get numbers divisible by fifteen from a list using an anonymous function.
+Last Modified time:2021-08-21 02:47:00
+Title : Write a Python program which accepts a sequence of comma-separated numbers from user
+and generate a list and a tuple with those numbers.
 """
-
-#could the user input any number of numbers
-#do not need to change the input to integer as in the sample list all elements are strings 
-input_string=input('Enter numbers seperated by comma:')
-input_list=[]
-input_list=input_string.split(',')
-print(input_list)
-print(tuple(input_list))
+try:
+    input_list=[]
+    input_list=input('Enter numbers:').split(',')
+    input_list=[int(i) for i in input_list]
+except Exception:
+    print('Invalid input')
+else:
+    print(input_list)
+    print(tuple(input_list))
+    
