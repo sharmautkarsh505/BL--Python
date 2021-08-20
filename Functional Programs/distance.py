@@ -1,8 +1,8 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-08-07 20:30:00
-Last Modified by:---
-Last Modified time:----
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-20 16:08:00
 Title : Find the euclidean distance of a point in the x-y plane with respect to the origin 
 """
 import cmath 
@@ -16,5 +16,10 @@ def euclidean_distance(x,y):
     logging.info(dist)
   
 while True:
-    x,y=input('Enter the co-ordinates of the point:').split()
-    euclidean_distance(int(x),int(y))
+    try:
+        x,y=input('Enter the co-ordinates of the point:').split(',')
+        euclidean_distance(float(x),float(y))
+    except ValueError:
+        print('Please enter integer or float values')
+    except Exception:
+        print('Please enter a valid input') 
