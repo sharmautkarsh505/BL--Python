@@ -1,3 +1,11 @@
+"""
+Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Date: 2021-08-20 18:07:00
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-23 23:07:00
+Title : User Registration problem
+"""
+
 import re
 
 def first_name(fname):
@@ -25,7 +33,7 @@ def email_id(eid):
         return False
 
 def mobile_number(mno):
-    pattern_of_mobile_no=re.compile(r"^\+?[1-9][0-9]\s[0-9]{10}$")
+    pattern_of_mobile_no=re.compile(r"^\+?[1-9][0-9]\s[7-9][0-9]{9}$")
     if pattern_of_mobile_no.fullmatch(mno):
         return True
     else:
