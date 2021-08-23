@@ -1,3 +1,11 @@
+"""
+Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Date: 2021-08-20 18:07:00
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-23 23:07:00
+Title : User Registration problem
+"""
+
 import unittest 
 from registration import first_name,last_name,email_id,mobile_number,user_password
 
@@ -28,7 +36,7 @@ class UserValidation(unittest.TestCase):
     def test_mobile_number(self):
         self.assertEqual(mobile_number('00 0000000000'),False)
         self.assertEqual(mobile_number('81 7989886451'),True)
-        self.assertEqual(mobile_number('80 1234567092'),True)
+        self.assertEqual(mobile_number('80 8234567092'),True)
         
     
     def test_password(self):
