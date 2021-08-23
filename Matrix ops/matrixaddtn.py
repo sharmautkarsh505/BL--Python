@@ -1,3 +1,11 @@
+"""
+Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Date: 2021-08-23 22:20:00
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-23 23:27:00
+Title : User Registration problem
+"""
+
 #incase of square matrix
 matrix_1=[[1,2],[3,4]]
 matrix_2=[[5,6],[7,8]]
