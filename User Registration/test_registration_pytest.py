@@ -1,3 +1,11 @@
+"""
+Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Date: 2021-08-20 18:07:00
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-23 23:07:00
+Title : User Registration problem
+"""
+
 import pytest
 from registration import first_name,last_name,email_id,mobile_number,user_password
 
@@ -19,7 +27,7 @@ def test_email():
 def test_mobile_number():
     assert mobile_number('00 0000000000')==False
     assert mobile_number('81 7989886451')==True
-    assert mobile_number('80 1234567092')==True
+    assert mobile_number('80 8234567092')==True
 
 def test_password():
     assert user_password('U@1karsh')==True 
