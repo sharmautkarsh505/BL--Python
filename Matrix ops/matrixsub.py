@@ -1,3 +1,11 @@
+"""
+Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Date: 2021-08-23 23:27:00
+Last Modified by:----
+Last Modified time:----
+Title : User Registration problem
+"""
+
 #for 2d square matrix 2x2
 matrix1=[[51,22],[45,21]]
 matrix2=[[23,7],[28,11]]
