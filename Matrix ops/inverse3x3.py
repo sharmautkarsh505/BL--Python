@@ -45,8 +45,3 @@ for i in range(len(M)):
             if I==[[1,0,0],[0,1,0],[0,0,1]]:
                 print('invM is the inverse of matrix M')
                 break
-
-
-
-
-        
