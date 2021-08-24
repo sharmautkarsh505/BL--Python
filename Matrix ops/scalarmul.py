@@ -1,8 +1,8 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-08-24 11:14:00
-Last Modified by:----
-Last Modified time:----
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-24 11:24:00
 Title : Scalar multiplication
 """
 #logic gets much clear once used for rectangular matrix
