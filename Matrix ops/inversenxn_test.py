@@ -41,3 +41,5 @@ def getMatrixInverse(m):
         for c in range(len(cofactors)):
             cofactors[r][c] = cofactors[r][c]/determinant
     return cofactors
+
+getMatrixInverse([[1,0,5],[2,1,6],[3,4,0]])
