@@ -6,7 +6,7 @@ Last Modified time:----
 Title :Given the following statistics, write a program to find the probability that a woman has
 cancer if she has a positive mammogram result? One percent of women over 50 have breast cancer.Ninety 
 percent of women who have breast cancer test positive on mammograms.Eight percent of women will have 
-false positive,
+false positive.
 """
 #probability of women with age>50 having cancer 
 p_cancer=0.01
@@ -24,8 +24,3 @@ print(p_ptest)
 #probability of woman has cancer given that she has a postive test
 p_cgpt=p_ptndc/p_ptest
 print(p_cgpt)
-
-
-
-
-
