@@ -1,8 +1,8 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-08-31 16:08:00
-Last Modified by:----
-Last Modified time:----
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-31 16:19:00
 Title :Write a Python program to create an array which looks like below array.
 """
 import numpy as np
