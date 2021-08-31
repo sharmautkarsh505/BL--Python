@@ -9,4 +9,7 @@ import numpy as np
 
 
 matrix_3x3=np.array([[1,2,3],[4,5,6],[7,8,9]])
+#or 
+matrix_3x3_new=np.arange(1,10).reshape((3,3))
 print(matrix_3x3)
+print(matrix_3x3_new)
