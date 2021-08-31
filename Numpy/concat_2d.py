@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-31 15:50:00
+Date: 2021-08-31 16:26:00
 Last Modified by:----
 Last Modified time:----
 Title : Write a Python program to concatenate two 2-dimensional arrays.
