@@ -10,14 +10,7 @@ import numpy as np
 arr1=np.array([1,2])
 arr2=np.array([4,5])
 
-
 print(np.greater(arr1,arr2))
 print(np.less(arr1,arr2))
 print(np.greater_equal(arr2,arr1))
 print(np.less_equal(arr2,arr1))
-
-
-
-
-#Array a: [1 2]
-#Array b: [4 5]
