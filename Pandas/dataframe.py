@@ -1,14 +1,13 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-08-31 23:11:00
-Last Modified by:----
-Last Modified time:----
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-08-31 23:24:00
 Title :Write a Python program to create and display a DataFrame from a specified dictionary
 data which has the index labels.
 """
 import numpy as np
 import pandas as pd
-from pandas.core.frame import DataFrame
 
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael',
 'Matthew', 'Laura', 'Kevin', 'Jonas'],
