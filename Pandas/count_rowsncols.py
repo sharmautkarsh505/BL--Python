@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-01 00:01:00
+Date: 2021-09-01 00:01:00
 Last Modified by:----
 Last Modified time:----
 Title :Write a Python program to count the number of rows and columns of a DataFrame.
@@ -18,4 +18,3 @@ data=pd.DataFrame(exam_data,index=labels)
 rows=data.shape[0]
 cols=data.shape[1]
 print(rows,cols)
-
