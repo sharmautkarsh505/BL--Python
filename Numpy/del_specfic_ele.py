@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-31 17:47:00
+Date: 2021-08-31 18:09:00
 Last Modified by:----
 Last Modified time:----
 Title :Write a Python program to remove specific elements in a numpy array.
