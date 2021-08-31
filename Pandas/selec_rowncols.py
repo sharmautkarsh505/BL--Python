@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-31 23:11:00
+Date: 2021-08-31 23:51:00
 Last Modified by:----
 Last Modified time:----
 Title :Write a Python program to select the specified columns and rows from a given data
