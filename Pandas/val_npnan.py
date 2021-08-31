@@ -1,6 +1,6 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
-Date: 2021-08-01 00:05:00
+Date: 2021-09-01 00:05:00
 Last Modified by:----
 Last Modified time:----
 Title :Write a Python program to select the rows where the score is missing, i.e. is NaN.
