@@ -3,7 +3,7 @@ Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-09-01 02:27:00
 Last Modified by:----
 Last Modified time:----
-Title :19. Write a Python program to replace the 'qualify' column contains the values 'yes' and
+Title : Write a Python program to replace the 'qualify' column contains the values 'yes' and
 'no' with True and False.
 """
 import numpy as np
