@@ -8,7 +8,6 @@ Alphabet Inc. between October 3, 2016 to October 7, 2016. Customized the grid li
 rendering with a larger grid (major grid) and a smaller grid (minor grid).Turn on the grid but turn
 off ticks.
 """
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -21,8 +20,7 @@ plt.xlabel('Date (dd-mm-yyyy)')
 plt.ylabel('Closing Price')
 plt.title('Closing Price trend of Alphabet Inc.')
 plt.grid(which='minor',lw=0.2,ls=':',color='red')
-plt.grid(which='major',lw=0.3,ls="-",color='black',alpha=0.9)
+plt.grid(which='major',lw=0.3,ls="-",color='black')
 plt.minorticks_on()
 plt.tick_params(which='both',top=False,left=False,bottom=False)
-
 plt.show()
