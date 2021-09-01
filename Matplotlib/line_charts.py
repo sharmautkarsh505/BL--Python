@@ -3,7 +3,8 @@ Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-09-01 03:04:00
 Last Modified by:----
 Last Modified time:----
-Title : Write a Python program to draw a line with suitable label in the x axis, y axis and a title
+Title : Write a Python program to draw line charts of the financial data of Alphabet Inc. between
+October 3, 2016 to October 7, 2016.
 """
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -18,6 +19,3 @@ plt.text(x=-0.2,y=773.72,s='Open')
 plt.text(x=-0.17,y=775.40,s='High')
 plt.title('Stock price trend Alphabet Inc.')
 plt.show()
-
-
-
