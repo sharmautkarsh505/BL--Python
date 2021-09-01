@@ -1,8 +1,8 @@
 """
 Author:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
 Date: 2021-09-01 03:04:00
-Last Modified by:----
-Last Modified time:----
+Last Modified by:Utkarsh Sharma(sharmautkarsh2396@gmail.com)
+Last Modified time:2021-09-01 12:57:00
 Title : Write a Python program to draw line charts of the financial data of Alphabet Inc. between
 October 3, 2016 to October 7, 2016.
 """
